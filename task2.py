@@ -1,4 +1,10 @@
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-full_name = first_name + last_name
-print(f"Hello ,{full_name} ! Welcome to the Python Program .")
+list_1 = []
+for i in range(1,11):
+    list_1.append(i)
+first_five = list_1[0:5]
+print("extracted list is :- ")
+print(first_five)
+print("reverse list is :- ")
+reverse_list = first_five[::-1]
+print(reverse_list)
+
